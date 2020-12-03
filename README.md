@@ -1,4 +1,4 @@
-# Calculadora de média final
+# calculadora-media-final
 Calculadora de média final feita com Java e com Swing JOptionPane
 
 Como usar : <br></br>
