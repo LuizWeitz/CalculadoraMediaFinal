@@ -2,9 +2,11 @@ package calculadorademediafinal.executavel;
 
 import javax.swing.JOptionPane;
 
+/*Author Luiz Weitz*/
+
 public class principal {
 
-	/* Main È um mÈtodo auto executavel do java */
+	/* Main √© um m√©todo auto executavel do java */
 
 	public static void main(String[] args) {
 
@@ -16,7 +18,7 @@ public class principal {
 		String nota4 = JOptionPane.showInputDialog("Informe a quarta nota, por favor!");
 
 		/*
-		 * Converte as strings recebidas em n˙meros, como È nota, usa DOUBLE por causa de n˙mero quebrado
+		 * Converte as strings recebidas em n√∫meros, como √© nota, usa DOUBLE por causa de n√∫mero quebrado
 		 */
 
 		double nota01 = Double.parseDouble(nota1);
@@ -25,53 +27,53 @@ public class principal {
 		double nota04 = Double.parseDouble(nota4);
 
 		/*
-		 * Essa linha È respons·vel pela operaÁ„o matem·tica. Soma as notas e divide por 4
+		 * Essa linha √© respons√°vel pela opera√ß√£o matem√°tica. Soma as notas e divide por 4
 		 */
 
 		double notaFinal = (nota01 + nota02 + nota03 + nota04) / 4;
 
 		/*
-		 * Essa linha È respons·vel pela pergunta se È para realmente continuar a operaÁ„o
+		 * Essa linha √© respons√°vel pela pergunta se √© para realmente continuar a opera√ß√£o
 		 */
 
-		int resposta = JOptionPane.showConfirmDialog(null, "VocÍ deseja realmente fazer essa divis„o?");
+		int resposta = JOptionPane.showConfirmDialog(null, "Voc√™ deseja realmente fazer essa divis√£o?");
 
 		/*
-		 * Esse IF ele confere se a RESPOSTA for igual a 0,  continua, se n„o a operaÁ„o n„o È realizada
-		 * 0 no JOptionPane È SIM 
-		 * Caso a opÁ„o selecionada seja N√O a operaÁ„o n„o È realizada
+		 * Esse IF ele confere se a RESPOSTA for igual a 0,  continua, se n√£o a opera√ß√£o n√£o √© realizada
+		 * 0 no JOptionPane √© SIM 
+		 * Caso a op√ß√£o selecionada seja N√ÉO a opera√ß√£o n√£o √© realizada
 		 */
 
 		if (resposta == 0) {
 
 			/*
-			 * Confere se a nota È maior (ou igual) a 50, se for o aluno cai na condiÁ„o abaixo, se n„o o aluno est· reprovado
+			 * Confere se a nota √© maior (ou igual) a 50, se for o aluno cai na condi√ß√£o abaixo, se n√£o o aluno est√° reprovado
 			 */
 
 			if (notaFinal >= 50) {
 
 				/*
-				 * Confere se a nota È maior(ou igual) a 70, se for o aluno est· aprovado, se n„o est· em recupeÁ„o
+				 * Confere se a nota √© maior(ou igual) a 70, se for o aluno est√° aprovado, se n√£o est√° em recupe√ß√£o
 				 */
 
 				if (notaFinal >= 70) {
 
 					
-				JOptionPane.showMessageDialog(null, "A MÈdia Final È : " + notaFinal + " Aluno Aprovado!");
+				JOptionPane.showMessageDialog(null, "A M√©dia Final √© : " + notaFinal + " Aluno Aprovado!");
 				
 				} else {
 					
-				JOptionPane.showMessageDialog(null, "A MÈdia Final È : " + notaFinal + " Aluno Em RecuperaÁ„o!");
+				JOptionPane.showMessageDialog(null, "A M√©dia Final √© : " + notaFinal + " Aluno Em Recupera√ß√£o!");
 				}
 				
 			} else {
 				
-				JOptionPane.showMessageDialog(null, "A MÈdia Final È : " + notaFinal + " Aluno Reprovado");
+				JOptionPane.showMessageDialog(null, "A M√©dia Final √© : " + notaFinal + " Aluno Reprovado");
 			}
 
 		} else {
 
-			   JOptionPane.showMessageDialog(null, "OperaÁ„o n„o realizada");
+			   JOptionPane.showMessageDialog(null, "Opera√ß√£o n√£o realizada");
 
 		}
 
