@@ -6,7 +6,7 @@ Como usar : <br></br>
 2- Abra a pasta <br></br>
 3- Execute o arquivo Calculadora de média final.jar <br></br>
 4- Insira as 4 notas <br></br>
-5- Click em sim para realizar a operação <br></br>
+5- Click em sim(yes) para realizar a operação <br></br>
 6- Vai aparacer a média final e a situação do aluno (aprovado, recuperação ou reprovado) <br></br>
 
 Critério para as notas 
